@@ -1,0 +1,88 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+
+.modal {
+  position: fixed;
+  height: 60%;
+  top: 20vh;
+  left: 10%;
+  width: 60%;
+  z-index: 100;
+  overflow: hidden;
+}
+
+.header {
+  background: #fac534;
+  padding: 1rem;
+}
+
+.header h2 {
+  margin: 0;
+  color: white;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5px;
+  justify-content: center;
+}
+.sub {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 7px;
+  margin: 5px;
+}
+.sub input {
+  width: 20rem;
+  border-radius: 10px;
+  border-width: 1px;
+  padding: 5px;
+}
+.sub select {
+  width: 20rem;
+  border-radius: 10px;
+  padding: 5px;
+}
+.subButton {
+  border-radius: 10px;
+  margin: 10px;
+}
+.content {
+  padding: 1rem;
+}
+
+.actions {
+  padding: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 768px) {
+  .modal {
+    left: calc(50% - 20rem);
+    width: 40rem;
+  }
+}
+
+@media screen and (max-width: 678px) {
+  .modal {
+    margin: auto;
+    width: 80%;
+  }
+  .sub select {
+    margin-left: 7px;
+    width: 11.5rem;
+  }
+  .sub input {
+    width: 100%;
+  }
+}

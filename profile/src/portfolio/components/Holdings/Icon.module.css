@@ -1,0 +1,15 @@
+.symbol {
+  display: flex;
+  flex-direction: column;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: transparent;
+  color: white;
+  border-radius: 12px;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgg {
+  height: 100%;
+}

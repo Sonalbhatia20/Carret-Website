@@ -1,0 +1,26 @@
+.Portf {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.Main {
+  text-align: center;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+}
+
+@media screen and (max-width: 678px) {
+  .App {
+    display: flex;
+    flex-direction: column;
+  }
+  .Main {
+    max-width: 100%;
+    overflow-x: hidden;
+    display: flex;
+    flex-direction: column;
+  }
+}

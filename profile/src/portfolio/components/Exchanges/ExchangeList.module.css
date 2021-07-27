@@ -1,0 +1,53 @@
+.cardBox {
+  width: 30%;
+  height: 80vh;
+  margin: 2rem;
+  height: fit-content;
+}
+.cardBox li {
+  list-style: none;
+}
+.firstli {
+  font-size: 17px;
+  font-weight: bold;
+  background-color: rgba(51, 51, 51, 0.137);
+  color: rgba(51, 51, 51, 0.644);
+  border: 1px solid rgba(221, 221, 221, 1);
+  margin-right: 30px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  list-style: none;
+  border-radius: 0px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.26);
+}
+
+.subButton {
+  width: 70%;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 20px;
+}
+.firstDiv {
+  padding: 5px;
+}
+.secDiv {
+  padding-left: 2px;
+  display: flex;
+  flex-direction: row;
+}
+
+.secDiv div {
+  padding: 6px;
+}
+
+@media screen and (max-width: 678px) {
+  .cardBox {
+    width: 90%;
+    height: 90vh;
+    margin: 1rem auto;
+    height: fit-content;
+  }
+}

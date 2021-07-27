@@ -1,0 +1,39 @@
+.box {
+  width: 30%;
+  height: 100vh;
+  margin: 2rem;
+}
+
+.first {
+  height: 20%;
+  margin: 20px;
+  padding: 10px;
+}
+
+.sec {
+  height: 70%;
+  margin: 20px;
+}
+.total {
+  background-color: #333;
+  color: white;
+  border: 1px solid rgba(221, 221, 221, 1);
+  align-items: center;
+
+  border-radius: 10px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.26);
+}
+
+@media screen and (max-width: 678px) {
+  .box {
+    width: 80%;
+    height: 90vh;
+    margin: auto;
+  }
+  .first {
+    height: 22%;
+  }
+  .sec {
+    height: 65%;
+  }
+}
